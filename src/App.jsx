@@ -40,9 +40,9 @@ const App = () => {
 
   return (
     <div className="bg-teal-900 flex flex-col justify-center items-center text-white relative">
-      <img src={imgaesF} alt="" className=" w-full h-96  " />
+      <img src={imgaesF} alt="" className=" w-full  h-auto " />
 
-      <form className=" w-full flex justify-center" onSubmit={serchHandle}>
+      <form className=" w-full flex justify-center px-20" onSubmit={serchHandle}>
         <input
           className="bg-emerald-900 my-5 lg:px-72 py-4 sm:px-36 px-16"
           type="search"

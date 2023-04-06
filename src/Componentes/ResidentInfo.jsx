@@ -31,7 +31,7 @@ const ResidentInfo = ({ urlResident }) => {
           <h3 className="py-3 px-3 text-center text-2xl bg-emerald-600 rounded-full my-4 ">
             {residentInfo.name}
           </h3>
-          <ul className="px-5 text-xl">
+          <ul className="mx-5 text-xl">
             <li className="">{residentInfo.status}</li>
             <li className="py-3 flex flex-col">
               <span>Origin: </span>
